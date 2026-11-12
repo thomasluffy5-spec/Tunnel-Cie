@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Témoignages — Tunnel & Cie</title>
+  <meta name="description" content="Ils sont entrés dans un tunnel. Ils en sont sortis (presque tous). Témoignages fictifs, site parodique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Courier+Prime:wght@400;700&family=Special+Elite&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="temoignages">
+
+  <div class="topbar" aria-hidden="true">
+    <div class="topbar-track">
+      <span>★ 100 % DE SURVIVANTS INTERROGÉS SONT SURVIVANTS</span>
+      <span>★ LA PAROLE EST À NOS CLIENTS (ET ILS NE LA RENDENT PAS)</span>
+      <span>★ TÉMOIGNAGES RECUEILLIS À LA SORTIE DU TUNNEL</span>
+      <span>★ 100 % DE SURVIVANTS INTERROGÉS SONT SURVIVANTS</span>
+      <span>★ LA PAROLE EST À NOS CLIENTS (ET ILS NE LA RENDENT PAS)</span>
+      <span>★ TÉMOIGNAGES RECUEILLIS À LA SORTIE DU TUNNEL</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a href="index.html" class="brand" aria-label="Tunnel & Cie, accueil">
+        <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <path class="lm-1" d="M4 60 V30 A28 28 0 0 1 60 30 V60 Z"/>
+          <path class="lm-2" d="M14 60 V32 A18 18 0 0 1 50 32 V60 Z"/>
+          <path class="lm-3" d="M23 60 V34 A9 9 0 0 1 41 34 V60 Z"/>
+          <path class="lm-4" d="M29 60 V37 A3 3 0 0 1 35 37 V60 Z"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Tunnel <em>&amp;</em> Cie</span>
+          <span class="brand-tag">Conversations interminables depuis 1974</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formules.html">Formules</a></li>
+        <li><a href="temoignages.html" aria-current="page">Témoignages</a></li>
+        <li><a href="formules.html#configurateur" class="nav-cta">Commander</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero sunburst">
+      <div class="container page-hero-inner reveal">
+        <p class="kicker">Paroles de survivants</p>
+        <h1 class="page-title">Ils en sont sortis.<br><span class="accent">(Presque tous.)</span></h1>
+        <p class="page-sub">Clients comme cibles, ils racontent leur expérience du tunnel.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filtrer les témoignages">
+          <button class="filter-btn is-active" data-filter="all" type="button">Tous</button>
+          <button class="filter-btn" data-filter="historique" type="button">Historique</button>
+          <button class="filter-btn" data-filter="scientifique" type="button">Scientifique</button>
+          <button class="filter-btn" data-filter="famille" type="button">Famille</button>
+          <button class="filter-btn" data-filter="philo" type="button">Philo</button>
+          <button class="filter-btn" data-filter="cible" type="button">Côté cible</button>
+        </div>
+
+        <div class="testi-grid" id="testi-grid">
+          <article class="testi reveal" data-cat="historique">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« J'ai pris le Grand Tunnel Historique. Le prof a commencé par Napoléon, on a fini sur la recette du cassoulet. L'interro a été reportée à une date inconnue. »</p>
+            <p class="testi-author">Kévin <span>— Terminale, Grand Tunnel</span></p>
+            <span class="stamp stamp-blue">Survivant</span>
+          </article>
+
+          <article class="testi reveal" data-cat="cible">
+            <p class="testi-stars" aria-label="4 étoiles sur 5">★★★★☆</p>
+            <p class="testi-text">« Je ne sais pas ce qui s'est passé. Je voulais juste corriger l'exercice 3. Et puis la sonnerie. »</p>
+            <p class="testi-author">Mme Lefèvre <span>— Professeure de physique, cible</span></p>
+            <span class="stamp stamp-red">Cible</span>
+          </article>
+
+          <article class="testi reveal" data-cat="famille">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« Tonton Gérard s'apprêtait à parler politique. Tunnel mécanique sur la 205 GTI, option relance. Il n'a jamais atteint le sujet. Noël sauvé. »</p>
+            <p class="testi-author">Jules <span>— Repas de famille, Moyen Tunnel</span></p>
+            <span class="stamp stamp-blue">Survivant</span>
+          </article>
+
+          <article class="testi reveal" data-cat="scientifique">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« J'ai demandé ce qu'il y avait dans un trou noir. Le prof a pris la craie et il a continué tout seul pendant quarante minutes. Tunnel autonome. Je recommande. »</p>
+            <p class="testi-author">Inès <span>— BTS, Tunnel Scientifique</span></p>
+            <span class="stamp stamp-blue">Survivant</span>
+          </article>
+
+          <article class="testi reveal" data-cat="philo">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« "Monsieur, est-ce que le temps existe vraiment ?" Posé en cours de maths. Il a regardé par la fenêtre. Quarante-sept minutes. »</p>
+            <p class="testi-author">Léa <span>— Licence, Tunnel Philosophique</span></p>
+            <span class="stamp stamp-blue">Survivant</span>
+          </article>
+
+          <article class="testi reveal" data-cat="cible">
+            <p class="testi-stars" aria-label="3 étoiles sur 5">★★★☆☆</p>
+            <p class="testi-text">« J'étais venu pour un timbre. »</p>
+            <p class="testi-author">Bernard <span>— Usager de La Poste, cible</span></p>
+            <span class="stamp stamp-red">Cible</span>
+          </article>
+
+          <article class="testi reveal" data-cat="historique">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« Tunnel sous la Manche. On est partis des cathédrales, on est passés par les Vikings. Je ne sais plus quel jour on est. Excellent service. »</p>
+            <p class="testi-author">Anonyme <span>— Tunnel sous la Manche</span></p>
+            <span class="stamp stamp-blue">Disparu</span>
+          </article>
+
+          <article class="testi reveal" data-cat="cible">
+            <p class="testi-stars" aria-label="1 étoile sur 5">★☆☆☆☆</p>
+            <p class="testi-text">« J'ai tenté le contre-tunnel. Ils avaient l'option relance automatique. J'ai perdu. »</p>
+            <p class="testi-author">Un professeur repenti <span>— cible</span></p>
+            <span class="stamp stamp-red">Vaincu</span>
+          </article>
+
+          <article class="testi reveal" data-cat="famille">
+            <p class="testi-stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <p class="testi-text">« J'ai demandé à Mamie comment elle avait rencontré Papi. Le dessert est arrivé, reparti, revenu. Personne ne m'a demandé mes notes. »</p>
+            <p class="testi-author">Sarah <span>— Repas du dimanche, Grand Tunnel</span></p>
+            <span class="stamp stamp-blue">Survivant</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORMULAIRE ===== -->
+    <section class="section section-navy">
+      <div class="container narrow">
+        <h2 class="section-title light"><span>Votre témoignage</span></h2>
+        <p class="section-lead light">Vous êtes ressorti d'un tunnel ? Racontez. Longuement, si possible.</p>
+        <form class="testi-form" id="testi-form">
+          <div class="form-row">
+            <label class="field">
+              <span>Prénom</span>
+              <input type="text" name="nom" maxlength="40" required placeholder="Gérard">
+            </label>
+            <label class="field">
+              <span>Formule ou rôle</span>
+              <input type="text" name="role" maxlength="60" placeholder="Grand Tunnel, cible…">
+            </label>
+          </div>
+          <div class="form-row">
+            <label class="field">
+              <span>Catégorie</span>
+              <select name="cat">
+                <option value="historique">Historique</option>
+                <option value="scientifique">Scientifique</option>
+                <option value="famille">Famille</option>
+                <option value="philo">Philo</option>
+                <option value="cible">Côté cible</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Note</span>
+              <select name="note">
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span>Votre récit</span>
+            <textarea name="texte" rows="4" maxlength="400" required placeholder="Tout a commencé par une question innocente…"></textarea>
+          </label>
+          <button class="btn btn-mustard" type="submit">Publier (sur cette page)</button>
+          <p class="form-note">Votre témoignage s'affiche uniquement dans votre navigateur. Rien n'est envoyé.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Tunnel <em>&amp;</em> Cie</p>
+        <p>Société Nationale du Tunnel Conversationnel.<br>Fondée en 1974. Jamais terminée.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formules.html">Formules</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+      </ul>
+      <p class="footer-disclaimer">
+        Site parodique à but humoristique. Aucun service n'est réellement vendu,
+        aucun paiement n'est demandé. Les témoignages sont fictifs.
+        Aucun professeur n'a été blessé, seulement retardé.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
